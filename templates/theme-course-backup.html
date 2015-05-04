@@ -1,0 +1,29 @@
+<%namespace name='static' file='static_content.html'/>
+<%!
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+from courseware.courses import course_image_url, get_course_about_section
+%>
+<%page args="course" />
+<h2>
+  <span>${get_course_about_section(course, 'title')}</span><span class="info-link">➔</span>
+</h2>
+<a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}" class="course-main-image">
+    <img src="${course_image_url(course)}" alt="${get_course_about_section(course, 'title')} ${course.display_number_with_default}" width="300" height="270" /><!--</header>-->
+</a>
+
+<div class="share-text">
+<span>Share this course &nbsp;</span>
+<span><a href="https://www.facebook.com/sharer/sharer.php?u=${reverse('about_course', args=[course.id.to_deprecated_string()])}&t=${get_course_about_section(course, 'title')} ${course.display_number_with_default}" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(${reverse('about_course', args=[course.id.to_deprecated_string()])}) + '&t=' + encodeURIComponent({reverse('about_course', args=[course.id.to_deprecated_string()])})); return false;" >
+    <img src="${static.url('themes/stanford/images/Facebook.png')}" class=".share-fb">
+</a></span>
+<span><a href="http://pinterest.com/pin/create/button/?url=${reverse('about_course', args=[course.id.to_deprecated_string()])}&description=" target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(${reverse('about_course', args=[course.id.to_deprecated_string()])}) + '&description=' +  encodeURIComponent(${get_course_about_section(course, 'title')} ${course.display_number_with_default})); return false;">
+  <img src="${static.url('themes/stanford/images/Pinterest.png')}" class=".share-pin" >
+</a></span>
+<span><a href="http://www.linkedin.com/shareArticle?mini=true&url=${reverse('about_course', args=[course.id.to_deprecated_string()])}&title=${get_course_about_section(course, 'title')} ${course.display_number_with_default}&summary=${get_course_about_section(course, 'title')} ${course.display_number_with_default}&source=${reverse('about_course', args=[course.id.to_deprecated_string()])}" target="_blank" title="Share on LinkedIn" >
+  <img src="${static.url('themes/stanford/images/LinkedIn.png')}" class=".share-in" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(${reverse('about_course', args=[course.id.to_deprecated_string()])}) + '&title=' +  encodeURIComponent(${get_course_about_section(course, 'title')} ${course.display_number_with_default})); return false;" >
+</a></span>
+<span><a href="https://twitter.com/intent/tweet?source=${reverse('about_course', args=[course.id.to_deprecated_string()])}&text=${get_course_about_section(course, 'title')} ${course.display_number_with_default}:${reverse('about_course', args=[course.id.to_deprecated_string()])}" target="_blank" title="Tweet">
+  <img src="${static.url('themes/stanford/images/Twitter.png')}" class=".share-twitter"  onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(${get_course_about_section(course, 'title')} ${course.display_number_with_default}) + ':%20'  + encodeURIComponent(${reverse('about_course', args=[course.id.to_deprecated_string()])})); return false;" >
+</a></span>
+</div>
