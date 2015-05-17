@@ -1,25 +1,24 @@
 header.global h1.logo {
-    margin: -2px 30px 0 0 !important ;
-
+    margin: -2px 24px 0 3px;
 }
-header.global{background: none repeat scroll 0 0 #FFF !important;}
+header.global{background: none repeat scroll 0 0 #FFF ;}
 .nav-courseware li .cta{ background: none repeat scroll 0 0 #ff762a;}
-.wrapper-footer { background: none repeat scroll 0 0 #FFF !important;border-top: 1px solid #fff;};
+.wrapper-footer { background: none repeat scroll 0 0 #FFF ;border-top: 1px solid #fff;};
 header.global .nav-global li a{
-    color: #1d8081 !important;
+    color: #1d8081 ;
     text-decoration:none;
 }
 .nav-global li a:hover {
     color: #1D8081;
     text-decoration:none;
-    border-bottom-color: #1D8081 !important;
+    border-bottom-color: #1D8081;
     border-bottom-style: solid ;
     border-bottom-width: 2px;
     padding-bottom: 13px;
     margin-top:0px;
 }
 .home > header {
-    border-bottom: 1px solid #e3dde4 !important ;
+    border-bottom: 1px solid #e3dde4 ;
 }
 .home > header .title {
     background: none ;
@@ -54,7 +53,7 @@ header.global .nav-global li a{
   margin-bottom:5px;
   padding: 5px 10px;
   width: 74%;
-  font-style: normal !important;
+  font-style: normal ;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 14px;
 
@@ -63,21 +62,9 @@ header.global .nav-global li a{
 .home > header .title > hgroup div {
   margin-top: 88px;
 }
-.view {
-    background: none repeat scroll 0 0 #FF762A;
-    color: #f2f2f2 !important;
-    font-size: 18px;
-    font-weight: bold !important;
-    height: 40px;
-    width: 95%;
-    padding: 4px 10px;
-    border: 1px solid #f2f2f2;
-    text-decoration: none !important;
-    font-family: Helvetica,Arial,sans-serif;
-}
 
 header.global .nav-global li a, header.global .nav-global div a {
-    color: #1d8081 !important;
+    color: #1d8081 ;
 }
 
 .register img{
@@ -97,7 +84,7 @@ header.global .nav-global li a, header.global .nav-global div a {
 }
 
 .find-courses header.search, .university-profile header.search {
-    border-bottom: 1px solid #e3dde4 !important ;
+    border-bottom: 1px solid #e3dde4  ;
 }
 
 .courses-container .courses .courses-listing .courses-listing-item {
@@ -105,7 +92,7 @@ header.global .nav-global li a, header.global .nav-global div a {
     float: left;
     margin-right: 3%;
     width: 29.232%;
-    border: none !important;
+    border: none ;
 }
 
 .courses-container .courses .courses-listing .courses-listing-item {
@@ -114,31 +101,31 @@ header.global .nav-global li a, header.global .nav-global div a {
 
 courses-listing li{
     background: none repeat scroll 0 0 #fbfbfb;
-    border: none !important;
+    border: none ;
 }
 
 .courses-listing h2{
    /* background: url('../images/arrow.png') no-repeat right; */
     height:49px;
     width:100%;
-    margin-bottom: 10px !important;
+    margin-bottom: 10px ;
     text-align: left;
     vertical-align: middle;
     line-height: 2.5;
-    border-left: 1px solid #B2B2B2 !important;
-    border-right: 1px solid #B2B2B2 !important;
-    border-top: 1px solid #B2B2B2 !important;
+    border-left: 1px solid #B2B2B2 ;
+    border-right: 1px solid #B2B2B2 ;
+    border-top: 1px solid #B2B2B2 ;
     border-bottom: none;
 }
 
 .info-link {
-    border-left: 1px solid #B2B2B2 !important;
+    border-left: 1px solid #B2B2B2 ;
     box-sizing: border-box;
     color: #313533;
     display: inline-block;
     float: right;
     font-family: "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
-    font-size: 30px !important;
+    font-size: 30px ;
     font-weight: bold;
     height: 100%;
     line-height: 1.2em;
@@ -169,7 +156,7 @@ courses-listing li{
 .course-main-image img{
     width: 100%;
     margin-top:-10px;
-    border: 1px solid #B2B2B2 !important;
+    border: 1px solid #B2B2B2 ;
 }
 
 .courses-listing .share-text{
@@ -177,22 +164,22 @@ courses-listing li{
     font-size: 14px;
     padding-top: 8px;
     text-align: right;
-    border: none !important;
+    border: none ;
 }
 .courses-listing .share-text span{
      color:#388A8B;
-     border: none !important;
+     border: none ;
 }
 
 .courses-listing .share-text span img{
-    border: none !important;
+    border: none ;
 }
 
 .courses-container .courses-more .courses-more-cta {
-    color: #388A8B !important;    
+    color: #388A8B;
 }
 .wrapper-footer footer .colophon .nav-colophon li a {
-    color: #388A8B !important;
+    color: #388A8B;
 }
 
 ul.share-buttons{
@@ -200,7 +187,7 @@ ul.share-buttons{
     margin-left: 183px;
     margin-top: -35px;
     padding-top: 20px;
-    border: none !important;
+    border: none;
 }
 
 ul.share-buttons li{
@@ -208,27 +195,27 @@ ul.share-buttons li{
   width:22px;
 }
 ul.share-buttons li img{
-    border: none !important;
+    border: none;
 }
 
 .share-fb{
-    width: 18px !important;
-    border: none !important;
+    width: 18px;
+    border: none;
 }
 
 .share-pin{
     width: 16px;
-    border: none !important;
+    border: none;
 }
 
 .share-twitter{
-    width: 22px !important;
-    border: none !important;
+    width: 22px;
+    border: none;
 }
 
 .share-in{
-    width: 18px !important;
-    border: none !important;
+    width: 18px;
+    border: none;
 }
 
 /* new style sheet for course */
@@ -307,7 +294,7 @@ a:link, a:visited {
     text-shadow: 0 1px rgba(255, 255, 255, 0.6);
     text-transform: none;
     vertical-align: middle;
-    border: medium none !important;
+    border: medium none;
 }
 
 .highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link {
@@ -327,6 +314,10 @@ a:link, a:visited {
     top: 0;
     vertical-align: middle;
     width: 60px;
+}
+
+.highlighted-courses .courses .course header.course-preview:hover .info-link, .find-courses .courses .course header.course-preview:focus .info-link {
+   color: #1d8081;
 }
 
 .highlighted-courses .courses .course .info, .find-courses .courses .course .info {
@@ -381,21 +372,21 @@ a:link, a:visited {
 }
 
 .highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info {
-    background: none repeat scroll 0 0 #86141c !important;
-    border: 1px solid #86141c !important;
+    background: none repeat scroll 0 0 #86141c;
+    border: 1px solid #86141c;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     bottom: 18px;
     box-shadow: 0 1px 5px 0 #86141c;
-    font-family: Helvetica,Arial,sans-serif !important;
+    font-family: Helvetica,Arial,sans-serif;
     font-weight:bold;
     position: absolute;
-    font-size: 20px !important;
+    font-size: 20px;
     transition: all 0.15s linear 0s;
     left: 0.053em;
     width:30%;
     min-width:30%;
-    right:none !important;
+    right:none;
 }
 
 .highlighted-courses .courses .course .meta-info::after, .find-courses .courses .course .meta-info::after {
@@ -409,27 +400,27 @@ a:link, a:visited {
     font-size: 14px;
     margin-top: -24px;
     text-align: right;
-    border: none !important;
+    border: none;
 }
 
 .courses-listing .new-share-text span{
-     color:#388A8B !important;
-     border: none !important;
+     color:#388A8B;
+     border: none;
 }
 
 .highlighted-courses .courses .course .meta-info p, .find-courses .courses .course .meta-info p {
     color: #fff;
-    font-style: normal !important;
+    font-style: normal;
     line-height: 1.2em;
     padding: 4px 12px 5px;
 }
 
 .courses-container .courses .courses-listing .courses-listing-item:nth-child(4n+1) {
-    clear: none !important ;
+    clear: none ;
 }
 
 a:link:hover, a:link:focus, a:visited:hover, a:visited:focus {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .wrapper-footer footer {
@@ -437,5 +428,121 @@ a:link:hover, a:link:focus, a:visited:hover, a:visited:focus {
     margin: 0 auto;
     max-width: 1180px;
     min-width: 760px;
-    width: 100% !important ;
+    width: 100% ;
 }
+
+a:view_courses{
+    color: #f2f2f2 ;
+}
+
+.view {
+    background: none repeat scroll 0 0 #FF762A;
+    color: #f2f2f2 !important;
+    font-size: 18px;
+    font-weight: bold ;
+    height: 40px;
+    width: 95%;
+    padding: 4px 10px;
+    border: 1px solid #f2f2f2;
+    text-decoration: none ;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+a:hover,a:focus{
+    color:#1d8081 !important ;
+    border:medium none;
+}
+
+textarea, input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    border: 1px solid #1d8081;
+}
+
+.view-register .introduction header .title .title-super, .view-login .introduction header .title .title-super, .view-passwordreset .introduction header .title .title-super {
+    color: #1d8081;
+}
+
+
+.login a:link, .login a:visited, .login a:hover, .login a:active, .login a:focus, .register a:link, .register a:visited, .register a:hover, .register a:active, .register a:focus, .passwordreset a:link, .passwordreset a:visited, .passwordreset a:hover, .passwordreset a:active, .passwordreset a:focus, #forgot-password-modal #password-reset a:link, #forgot-password-modal #password-reset a:visited, #forgot-password-modal #password-reset a:hover, #forgot-password-modal #password-reset a:active, #forgot-password-modal #password-reset a:focus {
+    color: #1d8081;
+}
+
+.wrapper-footer footer .colophon {
+    width: 100%;
+}
+.course_link,.course_link:focus{
+    border: medium none;
+}
+
+header.global .nav-global li a:hover, header.global .nav-global li a:focus, header.global .nav-global li a:active, header.global .nav-global div a:hover, header.global .nav-global div a:focus, header.global .nav-global div a:active {
+    color: #1d8081;
+}
+header.global .nav-global li.active a, header.global .nav-global div.active a {
+    color: #1d8081;
+}
+
+.highlighted-courses .courses .course header.course-preview:hover .info-link,.highlighted-courses .courses .course header.course-preview:focus .info-link,.find-courses .courses .course header.course-preview:hover .info-link,.find-courses .courses .course header.course-preview:focus .info-link{
+    color:#1d8081;opacity:1.0
+}
+.highlighted-courses .courses .course header.course-preview:hover h2,.highlighted-courses .courses .course header.course-preview:focus h2,.find-courses .courses .course header.course-preview:hover h2,.find-courses .courses .course header.course-preview:focus h2{
+    color:#1d8081;
+}
+
+.highlighted-courses .courses .course:hover,.highlighted-courses .courses .course:focus,.find-courses .courses .course:hover,.find-courses .courses .course:focus{
+    background:#fbfbfb;border-color:#f2f2f2;
+}
+
+.course-info .container nav, .course-info section.outside-app nav {
+    border-bottom: 1px solid #1d8081;
+}
+.course-info .course-sidebar>section{
+    border: 1px solid #1d8081;
+}
+
+.home .university-partners hr::after, .course-info .container nav::after, .course-info section.outside-app nav::after, .course-info .course-sidebar header::after, .mediakit hr::after, .container.about>nav::after, section.about.outside-app>nav::after {
+background-image: -webkit-linear-gradient(#1d8081 0%, #1d8081);
+}
+.course-info .details .inner-wrapper .course-staff .teacher .teacher-image{
+     border: medium none;
+}
+
+.course-info .course-sidebar>section.course-summary {
+    border-top: 1px solid #1d8081;
+}
+.course-info .course-sidebar .important-dates li{
+    border-bottom: 1px solid #1d8081;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .media .hero {
+    border: medium none;
+}
+
+.course-info header.course-profile .intro-inner-wrapper{
+   border: 1px solid #1d8081;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro>hgroup {
+    border-bottom: 1px solid #1d8081;
+    box-shadow: none;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.course-info header.course-profile{
+   border-bottom: 1px solid #fbfbfb;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart{
+    background-image:none;
+    background-color: #f7691f;
+    color: #f2f2f2;
+    border: none;
+    text-shadow: none;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+
+
+
+
