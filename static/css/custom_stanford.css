@@ -542,7 +542,37 @@ background-image: -webkit-linear-gradient(#1d8081 0%, #1d8081);
     letter-spacing: 0;
 }
 
+.find-courses header.search .inner-wrapper > hgroup, .university-profile header.search .inner-wrapper > hgroup {
+    border: 1px solid #1d8081;
+}
 
+.dashboard .profile-sidebar {
+    border: 1px solid #1d8081;
+}
 
+header.global .user a.user-link .icon {
+     background-color: #f7691f;
+     color: #f2f2f2;
+     text-shadow: none;
+}
 
+header.global .primary > a {
+    border: 1px solid #f7691f;
+    color: #f2f2f2;
+    background-color: #f7691f;
+    text-shadow: none;
+    font-weight: 500;
+    font-style: "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+}
 
+header.global .user > .primary:last-child > a {
+    padding: 5px 8px 10px 10px;
+    text-shadow: none;
+    font-weight: 500;
+}
+
+.dashboard .my-courses .course .details .enter-course {
+    border: none;
+    background-image: none;
+    font: 15px/1.6rem "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+}
